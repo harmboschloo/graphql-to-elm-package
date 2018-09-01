@@ -1,0 +1,35 @@
+{
+  "name": "graphql-to-elm-package",
+  "version": "0.0.0",
+  "description": "TODO",
+  "author": "Harm Boschloo",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/harmboschloo/graphql-to-elm-package",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harmboschloo/graphql-to-elm-package.git"
+  },
+  "keywords": [
+    "graphql",
+    "elm"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "src"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts":{
+    "build": "elm make",
+    "format": "elm-format . --yes",
+    "format:validate": "elm-format . --validate",
+    "test": "elm-test",
+    "prepublishOnly": "npm run format:validate && elm make && elm-test"
+  },
+  "devDependencies": {
+    "elm": "0.19.0-bugfix2",
+    "elm-format": "^0.8.0",
+    "elm-test": "0.19.0-beta5"
+  }
+}
