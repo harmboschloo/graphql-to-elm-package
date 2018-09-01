@@ -1,6 +1,6 @@
 {
   "name": "graphql-to-elm-package",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TODO",
   "author": "Harm Boschloo",
   "license": "BSD-3-Clause",
@@ -20,7 +20,7 @@
   ],
   "main": "index.js",
   "types": "index.d.ts",
-  "scripts":{
+  "scripts": {
     "build": "elm make",
     "format": "elm-format . --yes",
     "format:validate": "elm-format . --validate",
