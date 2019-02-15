@@ -1,6 +1,6 @@
 {
   "name": "graphql-to-elm-package",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Support package for graphql-to-elm, which generates Elm types, encoders and decoders from GraphQL queries",
   "author": "Harm Boschloo",
   "license": "BSD-3-Clause",
