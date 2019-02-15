@@ -4,9 +4,10 @@ module GraphQL.Errors exposing
     )
 
 {-| Types and decoder for the errors field in the GraphQL response.
-See <http://facebook.github.io/graphql/October2016/#sec-Errors>.
+See <http://facebook.github.io/graphql/draft/#sec-Errors>.
 
 @docs Errors, Error, Location, decoder
+@docs errorDecoder, locationDecoder
 
 -}
 
