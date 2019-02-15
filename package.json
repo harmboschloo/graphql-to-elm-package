@@ -28,8 +28,8 @@
     "prepublishOnly": "npm run format:validate && elm make && elm-test"
   },
   "devDependencies": {
-    "elm": "0.19.0-bugfix2",
+    "elm": "^0.19.0-bugfix6",
     "elm-format": "^0.8.0",
-    "elm-test": "0.19.0-beta5"
+    "elm-test": "^0.19.0-rev4"
   }
 }
