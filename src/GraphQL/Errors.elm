@@ -35,6 +35,7 @@ type alias Location =
     }
 
 
+{-| -}
 type PathSegment
     = FieldName String
     | ListIndex Int
