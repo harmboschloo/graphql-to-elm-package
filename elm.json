@@ -3,7 +3,7 @@
     "name": "harmboschloo/graphql-to-elm-package",
     "summary": "Generate Elm types/encoders/decoders from GraphQL queries. Support package.",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "GraphQL.Helpers.Decode",
         "GraphQL.Http.Basic",
